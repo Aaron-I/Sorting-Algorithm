@@ -18,10 +18,11 @@ To write a program to perform selection sort and insertion sort using python pro
 4.	Break the loop and insert X.
 5.	Repeat the steps 2 to 4 for sorting all the elements in the array.
 ## Program:
+```
 # i) Selection Sort
 # Developed by: AARON I
 # RegisterNumber: 23002289
-```
+
 def selection_sort(nums):
     for i in range(len(nums)):
         lv=i
@@ -33,10 +34,11 @@ list1=eval(input())
 selection_sort(list1)
 print(list1)
 ```
+```
 # ii)Insertion Sort
 # Developed by: AARON I
 # RegisterNumber: 23002289
-```
+
 def insertion_sort(nums):
     for i in range(1,len(nums)):
         item=nums[i]
